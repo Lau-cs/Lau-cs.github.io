@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Página de ejemplo del MOOC de LINUX - UPM.">
+    <meta name="description" content="Práctica final Curso Introducción Linux">
     <!--Sustituir por los datos del alumno-->
     <meta name="author" content="Laura Cabanillas">
 
@@ -15,49 +15,132 @@
   </head>
 
   <body>
-    <div class="container header-bar">
-      <!--Sustituir por los datos del alumno-->
-      <h3>Nombre y Apellido(s) <span><img style="width: 214px; height: 164px;" class='img-circle' alt="Nombre y Apellido(s)" src="img/foto.png" align="right"></span></h3>
-      <p>
-        <!--Sustituir por los datos del alumno-->
-        Posición<br>
-        Departamento<br>
-        Organización
-      </p>
-      <address>
-        <!--Sustituir por los datos del alumno-->
-        <span class='glyphicon glyphicon-pencil'></span> correo [at] dominio <br>
-      </address>
+        <header>
+      <!-- Static navbar -->
+      <nav class="s navbar navbar-default navbar-fixed-top">
+        <div id="nav" class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#home">Raqib Hasan</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a class="page-scroll" href="#home">Home</a></li>
+              <li><a class="page-scroll" href="#about">About</a></li>
+              <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+              <li><a class="page-scroll" href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+    </header>
 
-      <!--Sustituir por los datos del alumno-->
-      <p><a href="http://twitter.com/usuario" target="blank"><img src="img/twitter-icon.jpg" width=25></a>
-      <!--Sustituir por los datos del alumno-->
-      <a href="http://github.com/usuario" target="blank"><img src="img/github-icon.png" width=25></a>
-      <!--Sustituir por los datos del alumno-->
-      <a href="https://es.linkedin.com/in/usuario" target="blank"><img src="img/linkedin-icon.png" width=25></a>
+    <div id="home" class="container">
+       <div id="front" class="row">
+            <div class="col-sm-12">
+                <h1 class="redressed"><span>I'</span>m <span>R</span>aqib</h1>
+                <p class="redressed">Web developer | Programmer | Designer | Technophile</p>
+                <a class="btn btn-default hvr-bounce-to-right" href="https://www.facebook.com/omiq17" 
+                  role="button" target="_blank"><i class="fa fa-facebook"></i> Facebook</a>
+                <a class="btn btn-default hvr-bounce-to-right" href="https://github.com/omiq17" target="_blank" role="button">
+                    <i class="fa fa-github"></i> Github</a>
+                <a class="btn btn-default hvr-bounce-to-right" href="https://bd.linkedin.com/in/raqib-hasan-004708111" target="_blank" role="button">
+                    <i class="fa fa-linkedin"></i> LinkedIn</a>
+                <a class="btn btn-default hvr-bounce-to-right" href="https://www.freecodecamp.com/omiq17" target="_blank" role="button">
+                    <i class="fa fa-fire"></i> FreeCodeCamp</a>
+            </div>
+        </div>
+      
     </div>
 
-    <div class="container">
-      <div class='row'>
-        <div class='col-sm-8'>
-          <br>
-          <p>Este párrafo contiene una descripción breve del alumno. Se trata de un texto que permite conocer su ocupación actual y sus principales títulos académicos y/o profesionales.  </p>
-          
-          <p>En este segundo párrafo nos centraremos en las capacidades de desarrollo del alumno, de forma que se pueda conocer si sabe programar, en qué lenguajes, qué sistemas operativos conoce y domina, etc. También se pueden mencionar los proyectos que se han desarrollado en GitHub, o cualquier otra información que se considere relevante.</p>
+    <div id="about" class="container">
+      <div class="row">
+        <div class="col-sm-12 about">
+          <h1>About Me</h1>
+          <img src="https://res.cloudinary.com/omiq17/image/upload/c_scale,e_sepia:85,h_960,w_960/v1501087453/portfolio/pp.jpg" class="img-responsive" alt="Raqib">
+          <h2>Hi,</h2>
+          <p>I am a self-taught web developer &amp; designer based in Bangladesh. Currently studying at CSE in CUET. 
+            I have a passion for developing websites &amp; web applications. Also like a little bit of programming &amp; always love to use open source tools.</p>
+          <p><b>Competences</b></p> 
+          <p>Languanges: JavaScript, Pyhton, Java, Php,  HTML5</p>
+          <p>JS Stack: jQuery, ReactJS, NodeJS, ExpressJS</p>
+          <p>Databases: MySQL, MongoDB</p>
+          <p>UI Stack: CSS3, Bootstrap3</p>
+          <p>Version Control System: Git</p>
+          <p></p>
+        </div>
+      </div>
+      
+    </div>
 
-          <h3>Cursos</h3>
-          <table class='table table-striped'>
-            <tr><td><a href="https://www.miriadax.net" target="blank">Introducción a Linux como entorno de desarrollo de sistemas software</a>.</td></tr>
-            <tr><td>Otros...</td></tr>
-          </table>
+    <div id="portfolio" class="container">
+      <h2>Portfolio</h2>
+      <p>Here are some of my works...</p>
+      <div class="row">
+        <div class="col-md-6 portfolio">
+          <figure>
+            <a href="http://joyoddhoney.herokuapp.com" target="_blank"><img alt="joyoddhoney" src="https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/Screenshot_from_2017-07-26_22-45-10.jpg" class="img-responsive"></a>
+          </figure>
+          <h2>Joyoddhoney</h2>
+          <p>A cultural website</p>
+        </div>
+        <div class="col-md-6 portfolio">
+          <figure>
+            <a href="http://raqib.me/tictactoe" target="_blank"><img alt="tictactoe" src="https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/screenshot.jpg" class="img-responsive"></a>
+          </figure>
+          <h2>Tic Tac Toe</h2>
+          <p>A game</p>
         </div>
       </div>
 
-      <footer class="footer">
-        <!--Sustituir por los datos del alumno-->
-        <p>&copy; Nombre y Apellido(s) - 2017</p>
-      </footer>
+      <div class="row">
+        <div class="col-md-6 portfolio">
+          <figure>
+            <a href="https://s.codepen.io/omiq17/full/GZpGRN" target="_blank"><img alt="quote" src="https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/Selection_004.jpg" class="img-responsive"></a>
+          </figure>
+          <h2>Random Quote Machine</h2>
+          <p>A quotation generator</p> 
+        </div>
+        <div class="col-md-6 portfolio">
+          <figure>
+            <a href="https://s.codepen.io/omiq17/full/JGVyQz" target="_blank"><img alt="masud" src="https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/Selection_006.jpg" class="img-responsive"></a>
+          </figure>
+          <h2>Tribute To Tareque Masud</h2>
+          <p>A tribute page for Tareque Masud</p>
+        </div>
+      </div>       
 
+    </div>
+
+    <div id="contact" class="container">
+      <div class="row">
+        <div class="col-sm-12">
+        <h2>Looking For My Help?</h2>
+        <h4>Here I am...</h4>
+        <h2>Raqib Hasan</h2>
+        <p>Chittagong<br>Bangladesh</p>
+        <ul class="list-unstyled">
+          <li><i class="fa fa-phone fa-fw"></i>+880 15 21 21 78 12</li>
+          <li><i class="fa fa-envelope-o fa-fw"></i>omiq17@gmail.com</li>
+        </ul>
+        <hr class="small">
+        <a class="btn btn-default" href="https://www.facebook.com/omiq17" 
+                  role="button" target="_blank"><i class="fa fa-facebook"></i> </a>
+        <a class="btn btn-default" href="https://github.com/omiq17" target="_blank" role="button">
+                    <i class="fa fa-github"></i> </a>
+        <a class="btn btn-default" href="https://bd.linkedin.com/in/raqib-hasan-004708111" target="_blank" role="button">
+                    <i class="fa fa-linkedin"></i> </a>
+        <a class="btn btn-default" href="https://www.freecodecamp.com/omiq17" target="_blank" role="button">
+                    <i class="fa fa-fire"></i> </a>
+        </div>
+      </div>
+      
     </div>
   </body>
 </html>
